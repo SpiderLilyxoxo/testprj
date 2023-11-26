@@ -8,11 +8,11 @@ import MainPage from "./pages/mainpage/index.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/testprj/",
     element: <MainPage />,
   },
   {
-    path: "/:id",
+    path: "/testprj/:id",
     element: <SinglePost />,
   },
 ]);

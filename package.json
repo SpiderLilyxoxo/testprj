@@ -1,9 +1,9 @@
 {
   "name": "testwork",
+  "homepage": "https://spiderlilyxoxo.github.io/testprj/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://spiderlilyxoxo.github.io/testprj/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

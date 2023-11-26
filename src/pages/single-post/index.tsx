@@ -22,7 +22,7 @@ const SinglePost = () => {
               {data?.id} {data?.title}
             </h1>
             <h3>{data?.body}</h3>
-            <button onClick={() => navigate("/")}>Назад</button>
+            <button onClick={() => navigate("/testprj/")}>Назад</button>
           </div>
         )}
       </div>

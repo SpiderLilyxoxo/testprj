@@ -18,7 +18,7 @@ function MainPage() {
   } = useGetPostsQuery<any>(post);
 
   const postNav = (item: any) => {
-    navigate(`${item.id}`);
+    navigate(`/testprj/${item.id}`);
     navigate(0);
   };
 
